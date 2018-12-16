@@ -1,0 +1,89 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    background-color: rgba(238, 150, 128, 0.233);
+    height: 100%;
+  }
+  body {
+     width: 100%;
+     height: 100%;
+     font-family: Calibri;
+  }
+
+  header {
+      background-color: #FFC530;
+      padding: 20px;
+      border: 20px solid red;
+      border-image: url(fish.jpg) 25 25 round;
+      margin-top: 20px; 
+      margin-left: 20px; 
+      margin-bottom: 50px; 
+      font-size: 22;
+      display: block;
+  }
+  header h1 {
+      text-align: center;
+    /* margin-left: 198px;  */
+  }
+  nav {
+    background-color: rgb(201, 201, 228);
+      padding: 10px 10px 10px 30px;
+      float: center;
+      text-align: center;
+      width: 100%;
+  }
+  nav ul {
+      background-color: rgb(136, 136, 156);
+      padding: 10px 20px 10px 20px;
+      float: center;
+      border-bottom: ;
+      list-style-type: none;
+      text-align: center;
+      width: 95%;
+  }
+  nav li {
+      background-color: rgba(53, 53, 138, 0.418);
+      padding: 6px 20px 6px 20px;
+      float: center;
+      display: inline;
+      text-align: center;
+  }
+  nav li a {
+    display: inline-block;
+    height: 25px;
+    padding: 8px 18px 8px 18px;
+    vertical-align: middle;
+  }
+  a {
+      color: rgb(61, 59, 59);
+      font-family: Cambria;
+  }
+  section {
+      width: 80%;
+      display: inline-block;
+      float: left;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:;
+      padding:;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:;
+      color:;
+      clear: both;
+      display: block;
+  }
+  img {
+    border: 4px solid rgba(238, 161, 17, 0.596);
+    width: 24%;
+    margin: 12px;   
+  }
